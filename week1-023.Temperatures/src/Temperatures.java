@@ -9,11 +9,14 @@ public class Temperatures {
         // Write your code here. 
 
         // Graph is used as follows:
-        Graph.addNumber(7);
-        double value = 13.5;
-        Graph.addNumber(value);
-        value = 3;
-        Graph.addNumber(value);
+        while (true) {
+            System.out.println("Add a temperature");
+            double temp = Double.parseDouble(reader.nextLine());
+
+            if (temp < 40 && temp > -30) {
+                Graph.addNumber(temp);
+            }
+        }
         // Remove or comment out these lines above before trying to run the tests.
     }
 }

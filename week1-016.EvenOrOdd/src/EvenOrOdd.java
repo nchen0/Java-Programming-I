@@ -7,6 +7,14 @@ public class EvenOrOdd {
         Scanner reader = new Scanner(System.in);
 
         // Type your program here
+        int number = Integer.parseInt(reader.nextLine());
+
+        System.out.println("Type a number: ");
+        if (number % 2 == 0) {
+            System.out.println("Number " + number + " is even.");
+        } else {
+            System.out.println("Number " + number + " is odd.");
+        }
 
         // NOTE:
         // Parity of a value can be easily checked with modulo-operator %.
