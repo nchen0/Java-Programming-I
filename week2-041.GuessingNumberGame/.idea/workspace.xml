@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61aa3722-e145-44e1-b37b-4eab0048249c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../week1-000.Sandbox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-000.Sandbox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-023.Temperatures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-023.Temperatures/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2-040.PrintingLikeboss/src/PrintingLikeBoss.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week2-040.PrintingLikeboss/src/PrintingLikeBoss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2-042.Hangman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week2-042.Hangman/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2-042.Hangman/src/HangmanUserInteface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week2-042.Hangman/src/HangmanUserInteface.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GuessingNumberGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="34">
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding>
                 <element signature="e#957#958#0" expanded="true" />
               </folding>
@@ -76,7 +79,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559420379340" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559420846889" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -106,16 +109,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559419983776</updated>
-      <workItem from="1559419986821" duration="276000" />
+      <workItem from="1559419986821" duration="3054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276000" />
+    <option name="totallyTimeSpent" value="3054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -124,7 +126,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TMC Test Results" />
+      <window_info active="true" anchor="bottom" id="TMC Test Results" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -133,7 +135,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -144,7 +146,7 @@
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="TMC Project List" />
+      <window_info anchor="right" id="TMC Project List" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -156,8 +158,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/GuessingNumberGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding>
             <element signature="e#957#958#0" expanded="true" />
           </folding>
