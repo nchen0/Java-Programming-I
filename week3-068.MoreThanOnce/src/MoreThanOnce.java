@@ -5,6 +5,16 @@ public class MoreThanOnce {
 
     public static boolean moreThanOnce(ArrayList<Integer> list, int searched) {
         // write your code here
+        int number = searched;
+        int count = 0;
+        for (Integer num : list) {
+            if (num == number) {
+                count++;
+            }
+        }
+        if (count > 1) {
+            return true;
+        }
         return false;
     }
 

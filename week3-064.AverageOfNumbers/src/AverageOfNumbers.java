@@ -5,13 +5,16 @@ public class AverageOfNumbers {
 
     // Copy here the method sum from previous assignment
     public static int sum(ArrayList<Integer> list) {
-        return 0;
+        int total = 0;
+        for (Integer number : list) {
+            total += number;
+        }
+        return total;
     }
-    
-
     public static double average(ArrayList<Integer> list) {
         // write code here
-        return 0;
+
+        return sum(list) * 1.0 / list.size();
     }
 
     public static void main(String[] args) {
