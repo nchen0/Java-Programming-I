@@ -11,6 +11,26 @@ public class Main {
         // The second takes care of even numbers and the third the odd numbers.
 
         // The tests does not work if you do not create the objects in the correct order
+        NumberStatistics stats = new NumberStatistics();
+        NumberStatistics evens = new NumberStatistics();
+        NumberStatistics odds = new NumberStatistics();
+
+        System.out.println("Type numbers: ");
+        while (true) {
+            int a = reader.nextInt();
+            if (a == -1) {
+                break;
+            }
+            stats.addNumber(a);
+            if (a % 2 == 0) {
+                evens.addNumber(a);
+            } else {
+                odds.addNumber(a);
+            }
+        }
+        System.out.println("sum: " + stats.sum());
+        System.out.println("sum of even: " + evens.sum());
+        System.out.println("sum of odd: " + odds.sum());
 
     }
 }
