@@ -4,18 +4,25 @@ public class Main {
 
     public static void main(String[] args) {
         int[] original = {1, 2, 3, 4};
-        int[] copied = copy(original);
-
-        // change the copied
-        copied[0] = 99;
+        int[] reverse = reverseCopy(original);
 
         // print both
-        System.out.println( "original: " + Arrays.toString(original));
-        System.out.println( "copied: " + Arrays.toString(copied));
+        System.out.println( "original: " +Arrays.toString(original));
+        System.out.println( "reversed: " +Arrays.toString(reverse));
     }
 
     public static int[] copy(int[] array) {
         int[] newArray = array.clone();
+        return newArray;
+    }
+
+    public static int[] reverseCopy(int[] array) {
+        int[] newArray = new int[array.length];
+        int j = 0;
+        for (int i = array.length - 1; i >= 0; i--) {
+            newArray[j] = array[i];
+            j++;
+        }
         return newArray;
     }
     
